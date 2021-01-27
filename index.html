@@ -15,7 +15,7 @@
   <header>
     <h1 id="logo">dev.finance</h1>
   </header>
-  <main>
+  <main class="container">
     <section id="balance">
       <h2>Balanço</h2>
 
@@ -29,7 +29,7 @@
         <p>R$ 2.000,00</p>        
       </div>
 
-      <div class="card">
+      <div class="card total">
         <h3>Total</h3>
         <p>R$ 3.000,00</p>
       </div>
@@ -37,6 +37,7 @@
     </section>
 
     <section id="transaction">
+      <h2>Transações</h2>
       <table id="data-table">
         <thead>
           <tr>
@@ -47,19 +48,19 @@
         </thead>
         <tbody>
           <tr>
-            <td>Luz</td>
-            <td>R$ 500,00</td>
-            <td>23/01/2021</td>
+            <td class="description">Luz</td>
+            <td class="expense">R$ 500,00</td>
+            <td class="date">23/01/2021</td>
           </tr>
           <tr>
-            <td>web siste</td>
-            <td>R$ 5.000,00</td>
-            <td>23/01/2021</td>
+            <td class="description">web sistem</td>
+            <td class="income">R$ 5.000,00</td>
+            <td class="date">23/01/2021</td>
           </tr>
           <tr>
-            <td>Aluguel</td>
-            <td>R$ 200,00</td>
-            <td>23/01/2021</td>
+            <td class="description">Aluguel</td>
+            <td class="expense">R$ 200,00</td>
+            <td class="date">23/01/2021</td>
           </tr>
         </tbody>
       </table>
@@ -67,7 +68,7 @@
   </main>
 
 
-  <p>dev.finence</p>
+  <footer>dev.finence</footer>
 </body>
 
 </html>
