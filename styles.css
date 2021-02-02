@@ -178,6 +178,17 @@ footer {
 
   position: fixed;
   top: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.modal {
+  background: #F0F2f5;
+  padding: 2.4rem;
+
 }
 
 
