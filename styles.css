@@ -1,6 +1,6 @@
 :root {
   --dark-blue: #363f5f;
-  --green: #49AA26;
+  --green: #49aa26;
   --light-green: #3dd705;
 }
 
@@ -11,25 +11,21 @@
 }
 
 html {
-  font-size: 92.50%;
+  font-size: 92.5%;
 }
 
 body {
   background: #f0f2f5;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 a {
-  color: #49AA26;
+  color: #49aa26;
   text-decoration: none;
 }
 
 a:hover {
   color: #3dd705;
-}
-
-.modal-overlay {
-
 }
 
 button {
@@ -68,7 +64,7 @@ button:hover {
 
 .button.new {
   display: inline-block;
-  margin-bottom: .8rem;
+  margin-bottom: 0.8rem;
 }
 
 .sr-only {
@@ -96,7 +92,7 @@ h2 {
 }
 
 header {
-  background: #2D4A22;
+  background: #2d4a22;
   padding: 2rem 0 10rem;
   text-align: center;
 }
@@ -140,7 +136,7 @@ header {
 }
 
 .card.total {
-  background: #49AA26;
+  background: #49aa26;
   color: white;
 }
 
@@ -222,22 +218,20 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  
+
   opacity: 0;
-  visibility: hidden;  
+  visibility: hidden;
 }
 
 .modal-overlay.active {
   opacity: 1;
-  visibility: visible;  
+  visibility: visible;
 }
 
 .modal {
-  background: #F0F2f5;
+  background: #f0f2f5;
   padding: 2.4rem;
-
 }
-
 
 /* Form ===================== */
 
@@ -274,7 +268,7 @@ input {
 
 .input-group.actions .button,
 .input-group.actions button {
-  width: 48%;;
+  width: 48%;
 }
 
 @media (min-width: 800px) {
